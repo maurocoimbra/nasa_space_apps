@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="max-w-3xl w-full text-left">
+        <div className="max-w-3xl w-full text-left text-center">
           <h2 className="text-3xl font-bold">Juntos Podemos</h2>
           <p className="text-lg text-gray-300 mt-2">
             Inspire-se, aprenda e transforme suas ações em impacto positivo para o planeta.

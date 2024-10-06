@@ -11,7 +11,7 @@ const ContactForm = () => {
     <div className="bg-[#0f0f1e] flex flex-col items-center">
       <button
         onClick={handleButtonClick}
-        className="bg-lime-500 text-[#0f0f1e] font-bold py-3 px-6 mb-5 rounded-lg hover:bg-lime-600 transition duration-300"
+        className="bg-lime-500 text-[#0f0f1e] font-bold py-3 px-6 mb-10 rounded-lg hover:bg-lime-600 transition duration-300"
       >
         Fale Conosco
       </button>
