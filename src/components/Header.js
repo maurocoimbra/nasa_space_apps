@@ -10,7 +10,6 @@ const Header = () => {
       <nav>
         <ul className="flex space-x-5">
           <li><a href="/analysis" className="text-white">Análise & Conclusões</a></li>
-          <li><a href="/solution" className="text-white">Solução</a></li>
         </ul>
       </nav>
     </header>
