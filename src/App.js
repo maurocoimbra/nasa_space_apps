@@ -1,19 +1,23 @@
 import './App.css';
 
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Footer from './components/Footer';
-import ContactForm from './components/ContactForm';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Home from './pages/Home';
+import Analysis from './pages/Analysis';
+import Solution from './pages/Solution';
+import Contact from './pages/Contact'
 
-function App() {
+const App = () => {
   return (
-    <>
-      <Header/>
-      <Hero/>
-      <Footer/>
-      <ContactForm/>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/analysis" element={<Analysis />} />
+        <Route path="/solution" element={<Solution />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
