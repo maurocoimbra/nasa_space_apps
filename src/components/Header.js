@@ -8,9 +8,6 @@ const Header = () => {
         <a href="/" className="text-white">Millenium Falcon</a>
       </div>
       <nav>
-        <ul className="flex space-x-5">
-          <li><a href="/analysis" className="text-white">Análise & Conclusões</a></li>
-        </ul>
       </nav>
     </header>
   );
